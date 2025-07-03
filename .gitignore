@@ -25,3 +25,27 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Backend specific
+.cache/
+.parcel-cache/
+coverage/
+.nyc_output/
+*.tgz
+*.tar.gz
+
+# Rust/Solana
+.rust/target/
+*.so
+*.dll
+*.dylib
+Cargo.lock
+.cargo/
+
+# IDEs
+.vscode/
+.idea/
+.DS_Store
+
+# Logs
+*.log
